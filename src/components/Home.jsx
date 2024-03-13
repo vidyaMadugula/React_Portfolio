@@ -1,7 +1,8 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
+// import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+// import { Animator, Fade, ScrollContainer, ScrollPage, Sticky ,batch,MoveOut} from "react-scroll-motion";
 
 const Home = () => {
   return (
@@ -10,15 +11,27 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Developer
+        <div className="flex flex-col justify-center h-full ">
+          <h2 className="text-3xl sm:text-7xl font-bold text-white ">
+            I'm a 
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <h2 className="text-3xl sm:text-7xl font-bold text-white">Front-End Developer</h2>
+
+          {/* <ScrollContainer>
+            <ScrollPage page={0}>
+              <Animator animation={batch(Fade(),Sticky(),MoveOut())}>
+              <h2 className="text-3xl sm:text-7xl font-bold text-white">Front-End Developer</h2>
+              </Animator>
+            </ScrollPage>
+          </ScrollContainer>
+           */}
+
+
+          {/* <p className="text-gray-500 py-4 max-w-md">
             I have 8 years of experience building and desgining software.
             Currently, I love to work on web application using technologies like
             React, Tailwind, Next JS and GraphQL.
-          </p>
+          </p> */}
 
           <div>
             <Link
@@ -36,11 +49,11 @@ const Home = () => {
         </div>
 
         <div>
-          <img
+          {/* <img
             src={HeroImage}
             alt="my profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
-          />
+          /> */}
         </div>
       </div>
     </div>
