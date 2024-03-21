@@ -2,14 +2,16 @@ import React from 'react';
 
 const EducationSection = () => {
   return (
-    <div className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-fit h-fit pb-20'>
+    <div 
+    name="education"
+    className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-fit h-fit pb-20 md:w-full '>
     <h1 className='flex items-center justify-center text-4xl font-bold  pb-8 pt-24'>Education Details</h1>
     <div className="flex ">
       {/* First Block */}
     
       <div className="flex flex-col w-1/2 pr-4">
         <div className="flex items-center flex-1 mb-14">
-          <div className='ml-56 w-7/12 text-xl'>
+          <div className='xl:ml-56 w-7/12 text-xl md:ml-24  sm:ml-14'>
             <p className="font-bold">Bachleor's</p>
             <p>SREENIDHI INSTITUTE OF SCIENCE AND TECHNOLOGY</p>
             <p>📅2020-2024</p>
@@ -17,7 +19,7 @@ const EducationSection = () => {
           </div>
         </div>
         <div className="flex items-center mb-4">         
-          <div className='ml-56 text-xl'>
+          <div className='xl:ml-56 text-xl md:ml-24  sm:ml-14'>
             <p className="font-bold">School(10th)</p>
             <p>ZPHS GAMBHIRPOOR</p>
             <p>📅2018</p>
@@ -43,7 +45,7 @@ const EducationSection = () => {
       {/* Second Block */}
       <div className="flex flex-col w-1/2 pl-4">
         <div className="flex items-center flex-1 mb-4">
-          <div className='ml-16 mt-10 text-xl'>
+          <div className='ml-16 mt-10 text-xl md:ml-14 md:w-7/12 '>
             <p className="font-bold">Intermediate(12th)</p>
             <p>SRI GAYATRI JUNIOR COLLEGE</p>
             <p>📅2018-2020</p>

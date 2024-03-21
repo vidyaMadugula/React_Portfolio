@@ -26,8 +26,8 @@ const Portfolio = () => {
 
   return (
     <div
-      name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-fit h-fit"
+      name="projects"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-fit h-fit pb-28"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 pt-24">
@@ -44,7 +44,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105 w-fit"
+                className="rounded-md duration-200 hover:scale-105 w-fit md:h-fit"
               />
               </div>
               <div className="flex flex-col items-center justify-center w-8/12">
