@@ -4,10 +4,10 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className=" bg-gradient-to-b from-black to-gray-800 p-4 text-white sm:pb-10 sm:pt-10 h-fit pb-10 max-w-screen"
+      className=" bg-gradient-to-b from-black to-gray-800 p-4 text-white sm:pb-10 sm:pt-10 h-fit pb-10 sm:max-w-screen pl-44  pr-80 w-fit"
     >
-      <div className="flex flex-col p-4 justify-center mx-auto h-full">
-        <div className=" pt-12 ">
+      <div className="flex flex-col p-4 justify-center mx-auto h-full ">
+        <div className=" pt-12 sm:pl-72">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
@@ -18,7 +18,7 @@ const Contact = () => {
           <form
             action="https://getform.io/f/61c99527-2b15-42cf-9b55-ad37d2f7daa6"
             method="POST"
-            className=" flex flex-col "
+            className=" flex flex-col sm:w-7/12 w-12/12 "
           >
             <input
               type="text"

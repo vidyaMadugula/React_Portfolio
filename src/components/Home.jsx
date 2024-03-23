@@ -8,12 +8,12 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 md:pl-10 md:w-auto"
+      className="h-screen bg-gradient-to-b from-black via-black to-gray-800 md:pl-10 pl-24 pr-80 w-fit md:w-full "
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className=" mx-auto flex flex-col items-center justify-center h-full px-14 md:flex-row ">
         <div className="flex flex-col justify-center h-full ">
           <h2 className="text-3xl sm:text-7xl font-bold text-white ">
-            I'm a 
+            I'm 
           </h2>
           <h2 className="text-3xl sm:text-7xl font-bold text-white">Front-End Developer</h2>
 
