@@ -5,13 +5,14 @@ import { Link } from "react-scroll";
 // import { Animator, Fade, ScrollContainer, ScrollPage, Sticky ,batch,MoveOut} from "react-scroll-motion";
 
 const Home = () => {
+  
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="bg-gradient-to-b from-black via-black to-gray-800  md:h-screen md:w-full w-screen h-screen"
     >
-      <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
-        <div className="flex flex-col justify-center h-full ">
+      <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row w-full">
+        <div className="flex flex-col justify-center h-full w-full ">
           <h2 className="text-3xl sm:text-7xl font-bold text-white ">
             I'm 
           </h2>
