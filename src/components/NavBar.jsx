@@ -12,7 +12,7 @@ const NavBar = () => {
     },
     {
       id: 2,
-      link: "education",
+      link: "skills",
     },
     {
       id: 3,
@@ -20,7 +20,7 @@ const NavBar = () => {
     },
     {
       id: 4,
-      link: "skills",
+      link: "education",
     },
     {
       id: 5,
@@ -29,7 +29,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-20">
       <div>
         <h1 className="text-5xl font-signature ml-2">Vidya Madugula</h1>
       </div>
