@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.8d186de2.css",
-    "main.js": "/React_Portfolio/static/js/main.479091ed.js",
-    "static/media/Youtube.jpeg": "/React_Portfolio/static/media/Youtube.d0074cc1abc4e706f503.jpeg",
-    "static/media/Crypto.jpeg": "/React_Portfolio/static/media/Crypto.9463e3e9623fe175d224.jpeg",
-    "static/media/Travel.jpeg": "/React_Portfolio/static/media/Travel.b88653123a6233aed017.jpeg",
+    "main.css": "/React_Portfolio/static/css/main.06ab3227.css",
+    "main.js": "/React_Portfolio/static/js/main.90f93ced.js",
+    "static/media/CryptoApp.mp4": "/React_Portfolio/static/media/CryptoApp.a427b7592e9ee5ece8e9.mp4",
+    "static/media/TravelWebsite.mp4": "/React_Portfolio/static/media/TravelWebsite.683a843b772fe2f8dd73.mp4",
+    "static/media/YouTube.mp4": "/React_Portfolio/static/media/YouTube.c97e3c2f049d4d1549f7.mp4",
     "static/media/react.png": "/React_Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/database.png": "/React_Portfolio/static/media/database.1c4cf4d5504fe26161dd.png",
     "static/media/html.png": "/React_Portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
@@ -12,11 +12,11 @@
     "static/media/css.png": "/React_Portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/React_Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/React_Portfolio/index.html",
-    "main.8d186de2.css.map": "/React_Portfolio/static/css/main.8d186de2.css.map",
-    "main.479091ed.js.map": "/React_Portfolio/static/js/main.479091ed.js.map"
+    "main.06ab3227.css.map": "/React_Portfolio/static/css/main.06ab3227.css.map",
+    "main.90f93ced.js.map": "/React_Portfolio/static/js/main.90f93ced.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d186de2.css",
-    "static/js/main.479091ed.js"
+    "static/css/main.06ab3227.css",
+    "static/js/main.90f93ced.js"
   ]
 }
