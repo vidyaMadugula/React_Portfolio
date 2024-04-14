@@ -9,14 +9,14 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="bg-gradient-to-b from-black via-black to-gray-800  md:h-screen md:w-full h-fit"
+      className="bg-gradient-to-b from-black via-black to-gray-800 sm:w-full sm:h-screen md:h-screen md:w-full h-fit "
     >
       <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row w-full">
         <div className="flex flex-col justify-center h-full w-full ">
-          <h2 className="text-3xl sm:text-7xl font-bold text-white ">
+          <h2 className="text-3xl sm:text-4xl md:text-7xl font-bold text-white ">
             I'm 
           </h2>
-          <h2 className="text-3xl sm:text-7xl font-bold text-white">Front-End Developer</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-7xl font-bold text-white">Front-End Developer</h2>
 
           {/* <ScrollContainer>
             <ScrollPage page={0}>

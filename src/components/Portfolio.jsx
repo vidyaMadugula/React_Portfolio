@@ -59,10 +59,10 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-1 md:grid-cols-1 gap-8 px-12 sm:px-0 ">
           {portfolios.map(({ id, src, description, link }, index) => (
-            <div className=" flex sm:flex-row md:flex-row flex-col" key={id}>
+            <div className=" flex sm:flex-col md:flex-row flex-col" key={id}>
               <div
                 key={id}
-                className="z-10 rounded-lg duration-200 hover:scale-125 overflow-hidden mr-10 mb-10 scale-110"
+                className="z-10 rounded-lg duration-200 hover:scale-125 overflow-hidden mr-10 mb-10 scale-110 sm:w-10/12 sm:pl-20 sm:m-0 md:pl-0 md:m-6 md:w-12/12"
                 onMouseEnter={() => handleHover(index)}
                 onMouseLeave={() => handleMouseLeave(index)}
               >
@@ -75,7 +75,7 @@ const Portfolio = () => {
                   <source src={src} type="video/mp4" />
                 </video>
               </div>
-              <div className="flex flex-col items-center justify-center sm:w-4/12 w-12/12 mt-10 ml-14">
+              <div className="flex flex-col items-center justify-center sm:w-10/12 md:w-4/12 w-12/12 mt-10 ml-14">
                 <div className="">{description}</div>
                 <div className="flex items-center justify-center">
                   <a

@@ -4,7 +4,7 @@ const EducationSection = () => {
   return (
     <div 
     name="education"
-    className='bg-gradient-to-b from-black to-gray-800 text-white md:h-fit pb-20 w-fit p-4 md:w-full '>
+    className='bg-gradient-to-b from-black to-gray-800 text-white md:h-fit pb-20 w-fit p-4 md:w-full sm:h-fit'>
     <h1 className='flex items-center justify-center text-4xl font-bold  pb-8 pt-24'>Education Details</h1>
     <div className="flex ">
       {/* First Block */}
