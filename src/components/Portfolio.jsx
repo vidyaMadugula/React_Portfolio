@@ -47,7 +47,7 @@ const Portfolio = () => {
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-black to-gray-800  text-white md:h-fit md:w-full w-fit h-fit pb-10"
+      className="bg-gradient-to-b from-black to-gray-800  text-white md:h-fit md:w-full w-full h-fit md:pb-10"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 pt-2">
@@ -57,12 +57,13 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-1 md:grid-cols-1 gap-8 px-12 sm:px-0 ">
+        <div className="flex flex-wrap  gap-1 px-12 sm:px-0 ">
+        {/* grid sm:grid-cols-1 md:grid-cols-1 */}
           {portfolios.map(({ id, src, description, link }, index) => (
-            <div className=" flex sm:flex-col md:flex-row flex-col" key={id}>
+            <div className=" flex sm:flex-col md:flex-row flex-col " key={id}>
               <div
                 key={id}
-                className="z-10 rounded-lg duration-200 hover:scale-125 overflow-hidden mr-10 mb-10 scale-110 sm:w-10/12 sm:pl-20 sm:m-0 md:pl-0 md:m-6 md:w-12/12"
+                className="z-10 rounded-lg duration-200 hover:scale-125 overflow-hidden md:mr-10 md:mb-10 scale-110 w-8/12 sm:w-10/12 sm:pl-20 sm:m-0 md:pl-0 md:m-6 md:w-12/12"
                 onMouseEnter={() => handleHover(index)}
                 onMouseLeave={() => handleMouseLeave(index)}
               >
@@ -70,21 +71,21 @@ const Portfolio = () => {
                   ref={(el) => (videoRefs.current[index] = el)}
                   loop
                   muted
-                  className="w-full h-96"
+                  className="w-full h-60 md:h-96"
                 >
                   <source src={src} type="video/mp4" />
                 </video>
               </div>
-              <div className="flex flex-col items-center justify-center sm:w-10/12 md:w-4/12 w-12/12 mt-10 ml-14">
+              <div className="flex flex-wrap items-center justify-center w-7/12 sm:w-10/12 md:w-4/12 w-12/12 md:mt-10 md:ml-14">
                 <div className="">{description}</div>
-                <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center ml-10">
                   <a
                     href={src}
                     className="text-white w-fit px-6 py-3 m-10 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer mr-32"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Demo
+                    Demo 
                   </a>
                   <a
                     href={link}
